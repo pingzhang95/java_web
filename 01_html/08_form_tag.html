@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        form tag: form
+            action attribute: where data will be sent 
+                1. URL
+                2. relative path
+                3. absolute path
+            method attribute: how data will be sent
+                1. get - data is appended to the URL: url?key=value&key=value
+                2. post - data is sent in the body of the request
+        
+        input tag: input
+            type attribute: type of input
+                1. submit
+                2. reset
+                3. hidden
+            name attribute: name of input
+            value attribute: value of input
+    -->
+    <form action="01_hello.html" method="get">
+        name<input type="text" name="name" value="John Doe"> <br>
+        age<input type="number" name="age" value="25"> <br>
+        <input type="hidden" name="id" value="007">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
