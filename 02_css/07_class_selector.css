@@ -1,0 +1,22 @@
+/* 
+    class selector:
+    .class_name {property:value;}
+
+    Note:
+        - id selector has the highest priority.
+        - class selector has the second highest priority.
+        - element selector has the third highest priority.
+        - universal selector has the fourth highest priority.
+*/
+.class01 {
+    color: red;
+}
+
+.class02 {
+    font-weight: bold;
+}
+
+.class03 {
+    font-family: 'Courier New', Courier, monospace;
+}
+

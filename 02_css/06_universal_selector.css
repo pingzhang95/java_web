@@ -1,0 +1,15 @@
+/* 
+    universal selector:
+    * {property:value;}
+
+    Note:
+        - id selector has the highest priority.
+        - class selector has the second highest priority.
+        - element selector has the third highest priority.
+        - universal selector has the fourth highest priority.
+*/
+* {
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
