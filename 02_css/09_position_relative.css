@@ -1,0 +1,37 @@
+.div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/*
+    css position property is used to specify the type of positioning method used for an element.
+    position:
+    1. static - default
+    2. relative - relative to its normal position
+    3. fixed - relative to the viewport
+    4. absolute - relative to the nearest positioned ancestor
+    5. sticky - based on user's scroll position
+*/
+.d1 {
+    background-color: lightsalmon;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.d2 {
+    background-color: lightcoral;
+}
+
+.d3 {
+    background-color: lightskyblue;
+}
+
+.d4 {
+    background-color: lightgreen;
+}
+
+.d5 {
+    background-color: lightyellow;
+}
