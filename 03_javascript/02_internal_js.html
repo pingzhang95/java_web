@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="hello()">click</button>
+</body>
+</html>
+<!-- 
+    There are two ways to write javascript code in html file.
+        1. inline js.
+        2. internal js.
+            - script tag is used to write internal js code.
+            - script tag can be placed in anywhere.
+        3. external js.
+            - script tag is used to link the external js file. 
+                - src attribute contains the path.
+                - type attribute contains the type.
+-->
+<script>
+    function hello() {
+        window.alert("Hello, World!");
+    }
+</script>
